@@ -54,9 +54,24 @@ public class Main {
             }
         }
     }
-        public static void task5() {
-            System.out.println("Задача 5");
+
+    public static void task5() {
+        System.out.println("Задача 5");
+        int age = 12;
+        if (age < 5) {
+            System.out.println("Если возраст ребенка равен " + age + ", то ему нельзя кататься на аттракционе");
         }
+        if (age >= 5 && age <= 14) {
+            System.out.println("Если возраст ребенка равен " + age + ", то ему можно кататься на аттракционе в сопровождении");
+        } else {
+            if (age > 14) {
+                System.out.println("Если возраст ребенка равен " + age + ", то ему можно кататься на аттракционе без сопровождения взрослого");
+            }
+        }
+    }
+}
+
+
 
 
 
